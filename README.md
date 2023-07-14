@@ -1,4 +1,5 @@
 # Treino_Ceu-Estrelado
+Olá, eu sou Karpa (Nícolas). <br>
 Esta é uma página criada com intuito de treinar minhas habilidades frontEnd.
 O objetivo foi desenvolver uma página sobre uma palestra fictícia que conta com um layout responsivo, possuindo algumas transições fora do que costumo usar, e sem uso de programação propriamente dita (JS).
 <br>
