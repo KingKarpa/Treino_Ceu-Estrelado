@@ -8,3 +8,5 @@ O objetivo foi desenvolver uma página sobre uma palestra fictícia que conta co
   - CSS & BEM
 <br>
 Neste projeto gostaria de destacar o uso de pseudo-classes e de seletores como o seletor de irmão que foram muito importantes para o desenvolvimento das transições.
+
+Para dar uma olhada siga o link: <a href="https://kingkarpa.github.io/Treino_Ceu-Estrelado/">Teste Aqui</a>
