@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles/CSS-Reset/ResetCSS-style.css">
+    <link rel="stylesheet" type="text/css" href="./styles/utility-style.css">
+    <link rel="stylesheet" type="text/css" href="./styles/index-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:wght@300&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Céu Estrelado</title>
+    <link rel="icon" href="./img/main_icon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+
+        <header class="l-head">
+            <div class="c-head__logo">
+                <img src="./img/main_icon.png" alt="Logo de estrela cadente" class="s-img__logo">
+                <h1 class="s-title__logo">Céu Estrelado</h1>
+            </div>
+
+            <nav class="c-head__nav">
+                <!-- <div class="c-head__nav__labels"> -->
+                    <label for="signIn__radio1" class="s-head__nav__label">Cadastre-se</label>
+                    <label for="cotent__radio2" class="s-head__nav__label">Conteúdo</label>
+                    <label for="infos__radio3" class="s-head__nav__label">Sobre</label>
+                <!-- </div> -->
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!-- <div class="s-nav__input"> -->
+                <input type="radio" name="option" value="1" class="s-nav__radio" id="signIn__radio1" checked autocomplete="off">
+                <input type="radio" name="option" value="2" class="s-nav__radio" id="cotent__radio2" autocomplete="off">
+                <input type="radio" name="option" value="3" class="s-nav__radio" id="infos__radio3" autocomplete="off">
+            <!-- </div> -->
+
+            <section class="c-main__section s-section__signIn s-first__section">
+
+                <div class="c-section__text s-signIn__intro">
+                    <p>
+                        Descubra os segredos fascinantes do universo na palestra "Céu Estrelado"! 
+                        Junte-se a nós nessa jornada cósmica e explore os mistérios das estrelas, 
+                        planetas e galáxias. Se você é apaixonado por astronomia ou simplesmente deseja desvendar os segredos ocultos do céu noturno, 
+                        essa palestra é imperdível. Com conteúdo envolvente e apresentações visualmente deslumbrantes, 
+                        você será levado a uma viagem única através do cosmos. 
+                        Prepare-se para expandir sua mente e deixar-se maravilhar pela grandiosidade do espaço. 
+                        Reserve seu lugar agora na palestra "Céu Estrelado" e prepare-se para uma experiência inspiradora que iluminará sua visão do universo!
+                    </p>
+                </div>
+
+                <div class="c-section__form">
+                    <div class="s-form__action">
+                        <h3 class="u-subtitle u-mb1">GARANTA SUA VAGA!</h3>
+                    </div>
+                    <form class="s-form__signIn" action="">
+
+                        <div class="c-input__form s-input__name">
+                            <label for="inp1__name">Nome</label>
+                            <input type="text" id="inp1__name" placeholder="Nome">
+                        </div>
+
+                        <div class="c-input__form s-input__email">
+                            <label for="inp2__email">E-mail</label>
+                            <input type="text" id="inp2__email" placeholder="explorador@email.com">
+                        </div>
+
+                        <div class="c-input__form s-input__local">
+                            <label for="inp3__city">Cidade</label>
+                            <input type="text" id="inp3__city">
+
+                            <div class="s-select__dropdown">
+                                <select autocomplete="off">
+                                    <option selected disabled value="0">Selecione UF</option>
+                                    <option value="1">AC</option>
+                                    <option value="2">AL</option>
+                                    <option value="3">AM</option>
+                                    <option value="4">AP</option>
+                                    <option value="5">BA</option>
+                                    <option value="6">CE</option>
+                                    <option value="7">DF</option>
+                                    <option value="8">ES</option>
+                                    <option value="9">GO</option>
+                                    <option value="10">MA</option>
+                                    <option value="11">MG</option>
+                                    <option value="12">MS</option>
+                                    <option value="13">MT</option>
+                                    <option value="14">PA</option>
+                                    <option value="15">PB</option>
+                                    <option value="16">PE</option>
+                                    <option value="17">PI</option>
+                                    <option value="18">PR</option>
+                                    <option value="19">RJ</option>
+                                    <option value="20">RN</option>
+                                    <option value="21">RO</option>
+                                    <option value="22">RR</option>
+                                    <option value="23">RS</option>
+                                    <option value="24">SC</option>
+                                    <option value="25">SE</option>
+                                    <option value="26">SP</option>
+                                    <option value="27">TO</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="c-input__form s-input__submit">
+                            <button>Cadastre-se</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+            <section class="c-main__section s-section__content">
+
+                <div class="c-section__title">
+                    <fieldset class="u-fieldset__midline">
+                        <legend class="u-legend__center">
+                            <h2 class="u-subtitle">Conteúdo da Palestra</h2>
+                        </legend>
+                    </fieldset>
+                </div>
+                
+                <div class="c-section__texts">
+                    <div class="c-section__text s-content__intro">
+                        <p>
+                            A palestra "Céu Estrelado" é uma experiência enriquecedora que irá nos transportar para as maravilhas do universo. 
+                            Nessa jornada cósmica, exploraremos uma ampla gama de assuntos fascinantes, desde a astronomia básica até tópicos 
+                            avançados sobre estrelas, galáxias, o sistema solar e muito mais. Desvendaremos os segredos do cosmos, mergulhando em 
+                            descobertas científicas, explorações espaciais e fenômenos celestes. Com apresentações envolventes, imagens espetaculares 
+                            e conteúdo informativo, a palestra nos convidará a expandir nossa compreensão sobre o universo que nos cerca. 
+                            Prepare-se para se maravilhar com as belezas e complexidades do espaço, enquanto adquire conhecimentos valiosos sobre 
+                            os mistérios que habitam o céu estrelado. Essa palestra será uma oportunidade única para saciar sua curiosidade e despertar 
+                            ainda mais sua paixão pela astronomia e pelo universo. Agora, aqui está uma palinha do que vamos explorar nessa viagem:
+                        </p>
+                    </div>
+                </div>
+
+                <div class="c-section__cards s-content__cards">
+
+                    <!-- <div class="s-nav__input"> -->
+                        <input type="radio" name="option2" value="duo1" class="s-nav__radio" id="card_duo1" checked autocomplete="off">
+                        <input type="radio" name="option2" value="duo2" class="s-nav__radio" id="card_duo2" autocomplete="off">
+                        <input type="radio" name="option2" value="duo3" class="s-nav__radio" id="card_duo3" autocomplete="off">
+                    <!-- </div> -->
+
+                    <div class="s-card__duo s-first__cards">
+                        <div class="s-card">
+                            <div class="c-card__img">
+                                <img src="./img/planets_icon.png" alt="Ícone do universo">
+                            </div>
+                            <div class="c-card__text">
+                                <p>
+                                    Na palestra "Céu Estrelado", você terá a oportunidade de explorar os fascinantes conteúdos relacionados ao universo e à astronomia. 
+                                    Durante o evento, mergulharemos nos segredos cósmicos, desvendando as maravilhas do espaço sideral. 
+                                    Desde a formação e evolução das estrelas até as galáxias distantes, você será levado a uma jornada repleta de descobertas. 
+                                </p>
+                            </div>
+                        </div>
+        
+                        <div class="s-card">
+                            <div class="c-card__img">
+                                <img src="./img/galaxy_icon.png" alt="Ícone da galáxia">
+                            </div>
+                            <div class="c-card__text">
+                                <p>
+                                    Na palestra "Céu Estrelado", dedicaremos especial atenção ao fascinante mundo das galáxias. 
+                                    Nessa imersão cósmica, exploraremos as diversas formas, tamanhos e características das galáxias que povoam o universo. 
+                                    Descubra como as galáxias se formam e evoluem ao longo do tempo, desde as pequenas galáxias anãs até as 
+                                    imponentes galáxias espirais e elípticas.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="s-card__duo">
+                        <div class="s-card">
+                            <div class="c-card__img">
+                                <img src="./img/stars_icon.png" alt="Ícone da estrela">
+                            </div>
+                            <div class="c-card__text">
+                                <p>
+                                    A palestra "Céu Estrelado" proporcionará uma visão abrangente e cativante sobre o mundo das estrelas. 
+                                    Nessa jornada celeste, exploraremos as diferentes etapas de vida das estrelas, 
+                                    desde a sua formação até a explosão espetacular das supernovas. Aprenda sobre os diferentes tipos de estrelas, 
+                                    como as gigantes vermelhas, as estrelas de nêutrons e as estrelas de quarks.
+                                </p>
+                            </div>
+                        </div>
+        
+                        <div class="s-card">
+                            <div class="c-card__img">
+                                <img src="./img/solar_icon.png" alt="Ícone do sistema solar">
+                            </div>
+                            <div class="c-card__text">
+                                <p>
+                                    Na palestra "Céu Estrelado", exploraremos em detalhes o fascinante sistema solar em que vivemos. 
+                                    Descubra os planetas que compõem o nosso sistema, desde o imponente Júpiter até o misterioso e distante Plutão. 
+                                    Aprenda sobre as características únicas de cada planeta, suas atmosferas, luas e peculiaridades.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="s-card__duo">
+                        <div class="s-card">
+                            <div class="c-card__img">
+                                <img src="./img/rocket_icon.png" alt="Ícone do foguete">
+                            </div>
+                            <div class="c-card__text">
+                                <p>
+                                    Na palestra "Céu Estrelado", vamos mergulhar no emocionante mundo das missões espaciais. 
+                                    Explore os avanços científicos e tecnológicos que nos permitiram explorar além dos limites da Terra. 
+                                    Conheça as missões históricas, como a Apollo 11 que levou o homem à Lua, e descubra os desafios enfrentados 
+                                    pelos astronautas em suas jornadas pelo espaço.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <nav class="c-section__nav">
+                    <label for="card_duo1" class="s-section__nav__label"></label>
+                    <label for="card_duo2" class="s-section__nav__label"></label>
+                    <label for="card_duo3" class="s-section__nav__label"></label>
+                </nav>
+
+            </section>
+
+            <section class="c-main__section s-section__info">
+
+                <div class="c-section__title">
+                    <fieldset class="u-fieldset__midline">
+                        <legend class="u-legend__center">
+                            <h2 class="u-subtitle">Equipe</h2>
+                        </legend>
+                    </fieldset>                    
+                </div>
+
+                <div class="c-section__texts">
+                    <div class="c-section__text s-info__intro">
+                        <p>
+                            Apresentamos a vocês os renomados palestrantes da nossa palestra "Céu Estrelado". 
+                            Estes especialistas apaixonados pela astronomia e pelo universo trazem consigo um vasto conhecimento 
+                            e uma experiência sólida no campo da astronomia. Com suas pesquisas inovadoras, contribuições significativas 
+                            e entusiasmo contagiante, eles são verdadeiros guias nessa jornada cósmica. Prepare-se para se encantar com 
+                            as explanações envolventes e as histórias cativantes compartilhadas por nossos palestrantes. Com sua expertise 
+                            e paixão pela ciência, eles irão proporcionar uma experiência educativa e inspiradora, levando você a uma 
+                            compreensão mais profunda e apreciação do vasto universo que nos cerca. Esteja preparado para ser cativado 
+                            pelas palavras e conhecimentos desses brilhantes astrônomos que estão prontos para compartilhar suas descobertas e insights com você.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="c-section__cards s-info__cards">
+                    <div class="s-card">
+                        <div class="c-card__img">
+                            <img src="./img/speaker_icon.png" alt="Perfil do palestrante">
+                        </div>
+    
+                        <div class="c-card__text">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eum accusamus natus pariatur. 
+                                Ullam laborum earum ab saepe harum quis provident possimus fugit enim cum nesciunt voluptates illo. 
+                                <small class="s-card__info__extra">
+                                    Minus odit quo minima quia accusantium laudantium. At iure, qui magni, excepturi error optio corporis 
+                                    exercitationem esse ut doloribus voluptas aliquam deserunt.
+                                </small>
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="s-card">
+                        <div class="c-card__img">
+                            <img src="./img/speaker_icon.png" alt="Perfil do palestrante">
+                        </div>
+    
+                        <div class="c-card__text">
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga illum corrupti, quam commodi aliquam.
+                                Consequatur non culpa, dolor voluptatum aperiam cupiditate tenetur ut consequuntur perferendis repudiandae? 
+                                <small class="s-card__info__extra">
+                                    Aut animi sint laboriosam maiores tenetur incidunt odio ullam rem. Incidunt facilis possimus illum ex ea ad 
+                                    voluptates et, temporibus corrupti, unde, voluptatum culpa.
+                                </small>
+                            </p>
+                        </div>
+                    </div>
+    
+                    <div class="s-card">
+                        <div class="c-card__img">
+                            <img src="./img/speaker_icon.png" alt="Perfil do palestrante">
+                        </div>
+    
+                        <div class="c-card__text">
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo laboriosam dolor. 
+                                Laborum corporis! Quasi minima quod ut atque id illum? Consequatur praesentium consequuntur. 
+                                <small class="s-card__info__extra">
+                                    Provident expedita veritatis voluptatibus voluptas a repellendus corporis, itaque magnam magni 
+                                    ipsam quod totam, id alias nulla reiciendis numquam perspiciatis, perferendis accusantium. 
+                                    Non libero deserunt aliquam reprehenderit.
+                            </small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <footer class="s-info__footer">
+                    <!-- <p class="s-footer__intro">Aqui estão nossas redes e meios de contato oficiais. Siga e compartilhe!</p> -->
+                    <div class="c-footer__media">
+                        <a href="#" class="s-media__icon">
+                            <img src="./img/instagram_icon.png" alt="Ícone do instagram">
+                            <small>@ceu_estrelado</small>
+                        </a>
+                        <a href="#" class="s-media__icon">
+                            <img src="./img/facebook_icon.png" alt="Ícone do facebook">
+                            <small>@ceu_estrelado</small>
+                        </a>
+                        <a href="#" class="s-media__icon">
+                            <img src="./img/twitter_icon.png" alt="Ícone do twitter">
+                            <small>@ceu_estrelado</small>
+                        </a>
+                    </div>
+                    <div class="c-footer__coopyright">
+                        <p>&copy; 2023 Todos os direitos reservados.</p>
+                    </div>
+                </footer>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
